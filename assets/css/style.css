@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* ========================================================== 
+                            Resets
+========================================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* ========================================================== 
+                        Image Links
+========================================================== */
+
+/* https://source.unsplash.com/random?night sky */
+/* https://source.unsplash.com/random/?Cryptocurrency&1 */
+/* https://picsum.photos/300/300?random=1 */
+
+/* ========================================================== 
+                            Fonts
+========================================================== */
+
+/* ========================================================== 
+                Variables / Custom Properties
+========================================================== */
+
+/* ========================================================== 
+                            Body
+========================================================== */
+
+body {
+	font-family: 'Press Start 2P', cursive;
+	background-color: lightgray;
+	overflow: hidden;
+}
+
+/* .wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+} */
+
+/* ========================================================== 
+                            Content
+========================================================== */
+
+#backscene {
+	margin: 0 auto;
+	height: 100vh;
+	background: url("./../images/background.jpeg") no-repeat center/cover;
+	position: relative;
+}
+
+#cat {
+	width: 300px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+button {
+    font-family: "Press Start 2P", cursive;
+    text-transform: uppercase;
+    background-color: #26a69a;
+    color: rgb(230, 165, 3);
+    width: 165px;
+    height: 37px;
+    font-size: 12px;
+    line-height: 32.5px;
+}
