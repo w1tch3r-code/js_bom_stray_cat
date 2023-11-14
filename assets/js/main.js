@@ -6,6 +6,18 @@
 
 console.log("%c JS-Vertiefung – BOM Stray Cat", "color: tomato");
 
+// Aufgabenstellung:
+
+// Schreibe drei Funktionen, die die Katze steuern, mit den Namen walk, pause, turn.
+// Der HTML und CSS Code befindet sich im Kommentar und hier findest du die Bilder.
+
+// Nutzen kannst Du:
+// setInterval()
+// clearInterval()
+// window.innerWidth 
+// Boolean true/false
+
+
 let pos = 0;
 let rt = 2;
 let motor;
